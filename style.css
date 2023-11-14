@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:"Gilroy";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width : 100%;
+    height: 100%; 
+}
+
+#top{
+    width:100%;
+    height: 55%;
+    background-image: url(https://images.unsplash.com/photo-1541140134513-85a161dc4a00?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);  
+    background-size: cover;
+    background-position: center;
+}
+
+#overlay{
+    position:relative
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#text{
+    align-items: center;
+    display: flex;
+    position:absolute;
+    justify-content: space-between;
+    bottom: 55%;
+    width: 100%;
+    padding: 0 10vw;
+    color: black;
+}
+
+#textright{
+    width:65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#textright p{
+    font-size: 17px;
+    width:50%;
+}
+
+#textright i{
+    color:#fff;
+    
+}
+#text h1{
+    font-size: 6vw;
+}
+#bottom{
+    width:100%;
+    height: 45%;
+    background-color: blue; 
+    display: flex;
+}
+
+#bone{
+    padding: 30px;
+    width: 25%;
+    height:  100%;
+    background-color: #fff;
+}
+
+#bone p{
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+#btwo{
+    width: 25%;
+    height:  100%;
+    background-image: url(https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#bthree{
+    width: 20%;
+    height:  100%;
+
+}
+
+#bthreetop{
+    width: 100%;
+    height:  50%;
+    padding: 20px;
+    background-color: aqua;
+    color: black;
+    
+}
+
+#bthreetop p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+#bthreebottom{
+    width: 100%;
+    height:  50%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/dd/Children%27s_outdoor_gymnasium_circa_19th_Century.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#bfour{
+    width: 30%;
+    height:  100%;
+    padding: 30px;
+    background-color: #444;
+    color: #fff;
+}
+
+.notf{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.notf #photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.notf p{
+    width: 90%;
+    font-size: 16px;
+}
